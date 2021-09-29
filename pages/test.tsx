@@ -3,20 +3,14 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Page from "../components/Page";
 
-const Home: NextPage = () => {
+const Test: NextPage = () => {
   return (
-    <Page className={styles.container}>
-
-      <main className={styles.main}>
+    <Page className={styles.container} title={"test"}>
+        <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
-        <div className="reveal">
-          <div className="slides">
-            <section>Slide 1</section>
-            <section>Slide 2</section>
-          </div>
-        </div>
+
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
@@ -69,4 +63,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default Test
