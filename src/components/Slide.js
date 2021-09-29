@@ -1,5 +1,5 @@
 import React from 'react';
-import { Progress, Slide as SpectacleSlide, FlexBox } from 'spectacle';
+import { FlexBox, Slide as SpectacleSlide } from 'spectacle';
 
 import theme from '../theme/default-theme';
 

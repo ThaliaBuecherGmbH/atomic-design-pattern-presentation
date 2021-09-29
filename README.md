@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/ThaliaBuecherGmbH/atomic-design-pattern-presentation/main/public/logo.png?token=AHXTSXTDZ5DRBFQZFVYJ6H3BKNDVC" width="200" alt="Logo"/>
+    <img src="https://cdn-icons-png.flaticon.com/512/71/71299.png" width="200" alt="Logo"/>
 </p>
 <h2 align="center">Atomic Design Patterns</h2>
 
