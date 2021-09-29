@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://cdn-icons-png.flaticon.com/512/71/71299.png" width="200" alt="Logo"/>
+    <img src="https://atomic-design-pattern-presentation.vercel.app/logo.png" width="200" alt="Logo"/>
 </p>
 <h2 align="center">Atomic Design Patterns</h2>
 
