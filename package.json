@@ -1,10 +1,6 @@
 {
   "name": "atomic-design-pattern-presentation",
-  "version": "1.0.0",
-  "author": {
-    "name": "Guido Lange",
-    "email": "g.lange@thalia.de"
-  },
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -15,8 +11,7 @@
   "dependencies": {
     "next": "11.1.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "reveal.js": "^4.1.3"
+    "react-dom": "17.0.2"
   },
   "devDependencies": {
     "@types/react": "17.0.24",
