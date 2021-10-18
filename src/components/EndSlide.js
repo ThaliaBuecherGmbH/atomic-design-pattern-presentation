@@ -2,13 +2,13 @@ import React from 'react';
 import { Heading, Text } from 'spectacle';
 import TitleSlide from './TitleSlide';
 
-function SourcesSlide() {
+function EndSlide() {
   return (
     <TitleSlide>
-      <Heading>End</Heading>
-      <Text>Thanks for your attention!</Text>
-      <Text>Any questions or feedback?</Text>
+      <Heading>Ende</Heading>
+      <Text>Danke für eure Aufmerksamkeit!</Text>
+      <Text>Fragen und/oder Feedback?</Text>
     </TitleSlide>
   );
 }
-export default SourcesSlide;
+export default EndSlide;
