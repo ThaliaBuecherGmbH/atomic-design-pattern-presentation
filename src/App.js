@@ -1,5 +1,5 @@
 import React from 'react';
-import { Deck, Heading, Text, UnorderedList, ListItem, Box, FlexBox } from 'spectacle';
+import { Deck, Heading, Text, UnorderedList, ListItem } from 'spectacle';
 
 import theme from './theme/default-theme';
 import './App.css';
