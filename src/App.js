@@ -10,6 +10,7 @@ import ContentListSlide from './components/ContentListSlide';
 import Template from './components/Template';
 import Slide from './components/Slide';
 import CenteredContentSlide from './components/CenteredContentSlide';
+import logoImage from './images/logo.png';
 import periodicTableImage from './images/periodic_table.png';
 import periodicTableHTMLImage from './images/periodic_table_html.png';
 import atomicDesignPatternImage from './images/atomic_design_pattern.png';
@@ -31,7 +32,7 @@ function App() {
     <Deck theme={theme} template={Template}>
       <TitleSlide>
         <Heading>Atomic Design Pattern</Heading>
-        <img src="logo.png" alt="Logo" className="Logo" />
+        <img src={logoImage} alt="Logo" className="Logo" width="auto"/>
       </TitleSlide>
       <ContentListSlide
         contentList={['General', 'History', 'Categories', 'Most important design patterns', 'Design patterns in bella']}
