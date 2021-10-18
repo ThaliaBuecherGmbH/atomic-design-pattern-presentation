@@ -6,6 +6,9 @@
 Presentation about the Atomic Design pattern built with [spectacle](https://formidable.com/open-source/spectacle/).
 For further information about controlling the presentation see documentation of Spectacle [here](https://formidable.com/open-source/spectacle/docs/basic-concepts/).
 
+
+[Live View](https://thaliabuechergmbh.github.io/atomic-design-pattern-presentation)
+
 ### Available Scripts
 
 In the project directory, you can run:
