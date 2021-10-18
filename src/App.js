@@ -65,9 +65,9 @@ function App() {
           Kleinstmögliche Komponenten wie input, buttons, titles, text und können nicht weiter runtergebrochen werden
         </Text>
       </CenteredContentSlide>
-        <CenteredContentSlide title="Atome">
-            <img src="/images/atoms_components.png" alt="Atoms components" width="48%" />
-        </CenteredContentSlide>
+      <CenteredContentSlide title="Atome">
+        <img src="/images/atoms_components.png" alt="Atoms components" width="48%" />
+      </CenteredContentSlide>
       <CenteredContentSlide title="Moleküle">
         <img src="/images/molecules.png" alt="molecules" />
         <Text>
@@ -75,9 +75,9 @@ function App() {
           label und einer error-message bestehen
         </Text>
       </CenteredContentSlide>
-        <CenteredContentSlide title="Moleküle">
-            <img src="/images/molecules_components.png" alt="molecules" width="48%"/>
-        </CenteredContentSlide>
+      <CenteredContentSlide title="Moleküle">
+        <img src="/images/molecules_components.png" alt="molecules" width="48%" />
+      </CenteredContentSlide>
       <CenteredContentSlide title="Organismen">
         <img src="/images/organisms.png" alt="organisms" />
         <Text>
@@ -85,12 +85,15 @@ function App() {
           besteht.
         </Text>
       </CenteredContentSlide>
-        <CenteredContentSlide title="Organismen">
-            <img src="/images/organisms_components.png" alt="organisms" width="48%" />
-        </CenteredContentSlide>
+      <CenteredContentSlide title="Organismen">
+        <img src="/images/organisms_components.png" alt="organisms components" width="48%" />
+      </CenteredContentSlide>
       <CenteredContentSlide title="Templates">
         <img src="/images/templates.png" alt="templates" />
         <Text>Enthält meistens Gruppen von Organismen und formen eine Seite</Text>
+      </CenteredContentSlide>
+      <CenteredContentSlide title="Templates">
+        <img src="/images/templates_components.png" alt="organisms" width="48%" />
       </CenteredContentSlide>
       <CenteredContentSlide title="Seiten">
         <img src="/images/pages.png" alt="pages" />
@@ -98,6 +101,9 @@ function App() {
           Eine oder mehrere spezifische Instanzen von Templates mit realem Inhalt, welche die Anwendung darstellen.
         </Text>
       </CenteredContentSlide>
+        <CenteredContentSlide title="Seiten">
+            <img src="/images/pages_components.png" alt="pages components" width="48%" />
+        </CenteredContentSlide>
       <CenteredContentSlide title="Übersicht">
         <img src="/images/atomic_design_pattern_animated.gif" alt="Atomic design pattern animated" width="50%" />
       </CenteredContentSlide>
