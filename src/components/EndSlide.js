@@ -1,14 +1,14 @@
 import React from 'react';
 import { Heading, Text } from 'spectacle';
-import Slide from './Slide';
+import TitleSlide from './TitleSlide';
 
 function SourcesSlide() {
   return (
-    <Slide>
+    <TitleSlide>
       <Heading>End</Heading>
       <Text>Thanks for your attention!</Text>
       <Text>Any questions or feedback?</Text>
-    </Slide>
+    </TitleSlide>
   );
 }
 export default SourcesSlide;
