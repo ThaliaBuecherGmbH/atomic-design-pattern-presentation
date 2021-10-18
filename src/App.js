@@ -32,7 +32,6 @@ function App() {
       <TitleSlide>
         <Heading>Atomic Design Pattern</Heading>
         <img src="logo.png" alt="Logo" className="Logo" />
-        <Text>Reusable solutions to commonly occurring problems</Text>
       </TitleSlide>
       <ContentListSlide
         contentList={['General', 'History', 'Categories', 'Most important design patterns', 'Design patterns in bella']}
