@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,MACE,aAAc,CACd,mBACF,CAEA,OACE,UACF","file":"main.5ae37360.chunk.css","sourcesContent":[".Logo {\n  height: 30vmin;\n  pointer-events: none;\n}\n\n.Image {\n  height: 60%;\n}\n"]}

@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/atomic-design-pattern-presentation/static/css/main.5ae37360.chunk.css",
+    "main.js": "/atomic-design-pattern-presentation/static/js/main.774fcc8d.chunk.js",
+    "main.js.map": "/atomic-design-pattern-presentation/static/js/main.774fcc8d.chunk.js.map",
+    "runtime-main.js": "/atomic-design-pattern-presentation/static/js/runtime-main.f54e85bc.js",
+    "runtime-main.js.map": "/atomic-design-pattern-presentation/static/js/runtime-main.f54e85bc.js.map",
+    "static/js/2.e42b854a.chunk.js": "/atomic-design-pattern-presentation/static/js/2.e42b854a.chunk.js",
+    "static/js/2.e42b854a.chunk.js.map": "/atomic-design-pattern-presentation/static/js/2.e42b854a.chunk.js.map",
+    "index.html": "/atomic-design-pattern-presentation/index.html",
+    "static/css/main.5ae37360.chunk.css.map": "/atomic-design-pattern-presentation/static/css/main.5ae37360.chunk.css.map",
+    "static/js/2.e42b854a.chunk.js.LICENSE.txt": "/atomic-design-pattern-presentation/static/js/2.e42b854a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f54e85bc.js",
+    "static/js/2.e42b854a.chunk.js",
+    "static/css/main.5ae37360.chunk.css",
+    "static/js/main.774fcc8d.chunk.js"
+  ]
+}
