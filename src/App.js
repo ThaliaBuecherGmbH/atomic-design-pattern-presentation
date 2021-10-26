@@ -1,5 +1,5 @@
 import React from 'react';
-import { Deck, Heading, Text, UnorderedList, ListItem } from 'spectacle';
+import { Deck, Heading, Text, UnorderedList, ListItem, Appear, FlexBox, CodePane } from 'spectacle';
 
 import theme from './theme/default-theme';
 import './App.css';
@@ -26,17 +26,20 @@ import pagesImage from './images/pages.png';
 import pagesComponentsImage from './images/pages_components.png';
 import templatesImage from './images/templates.png';
 import templatesComponentsImage from './images/templates_components.png';
+import radioImage from './images/radio.png';
+import checkboxImage from './images/checkbox.png';
+import selectImage from './images/select.png';
+import backButtonImage from './images/backbutton.png';
+import chemicalFormulaImage from './images/chemical_formula.png';
 
 function App() {
   return (
     <Deck theme={theme} template={Template}>
       <TitleSlide>
         <Heading>Atomic Design Pattern</Heading>
-        <img src={logoImage} alt="Logo" className="Logo" width="auto"/>
+        <img src={logoImage} alt="Logo" className="Logo" width="auto" />
       </TitleSlide>
-      <ContentListSlide
-        contentList={['General', 'History', 'Categories', 'Most important design patterns', 'Design patterns in bella']}
-      />
+      <ContentListSlide contentList={['Allgemein', 'Beispiele', 'Pattern', 'Vorteile', 'Wo hilft es uns?']} />
       <Slide>
         <Heading>Allgemein</Heading>
         <Text>Entwickelt von Brad Frost ca. 2013</Text>
@@ -50,8 +53,71 @@ function App() {
           <ListItem>Missachtung der DRY-Regel</ListItem>
           <ListItem>Konsistenz und Modularität von Komponenten</ListItem>
           <ListItem>Einheitliches Vokabular für Komponenten</ListItem>
+          <ListItem>Wartung/Erweiterung der Komponenten</ListItem>
         </UnorderedList>
       </Slide>
+      <Slide>
+        <Heading>Beispiele aus dem Alltag</Heading>
+        <UnorderedList>
+          <Appear>
+            <ListItem>81 Basiskomponenten</ListItem>
+          </Appear>
+          <Appear>
+            <ListItem>17 Seitenkomponenten</ListItem>
+          </Appear>
+          <Appear>
+            <ListItem>38 seitenspezifische Komponenten</ListItem>
+          </Appear>
+        </UnorderedList>
+        <Appear>
+          <Text>=> 136 Komponenten</Text>
+        </Appear>
+        <Appear>
+          <Text>=> 408 Dateien</Text>
+        </Appear>
+      </Slide>
+      <CenteredContentSlide title="Beispiele zum Naming">
+        <FlexBox>
+          <img src={radioImage} alt="radio" />
+          <img src={checkboxImage} alt="checkbox" />
+        </FlexBox>
+        <Text>Wie heißt die Komponente links und rechts?</Text>
+        <Appear>
+          <Text>Radio / Checkbox</Text>
+        </Appear>
+      </CenteredContentSlide>
+      <CenteredContentSlide title="Beispiele zum Naming">
+        <img src={selectImage} alt="select" width="60%" />
+        <Text>Wie heißt diese Komponente?</Text>
+        <Appear>
+          <Text>Select</Text>
+        </Appear>
+      </CenteredContentSlide>
+      <CenteredContentSlide title="Beispiele zum Naming">
+        <img src={backButtonImage} alt="backbutton" />
+        <Text>Wie heißt diese Komponente?</Text>
+        <Appear>
+          <Text>BackButton</Text>
+        </Appear>
+      </CenteredContentSlide>
+      <CenteredContentSlide title="Beispiele zu DRY">
+        <CodePane language="css">
+          {`
+.Title::after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  background-color: var(--color-very-light-pink); // #bfbfbf
+}
+            `}
+        </CodePane>
+        <Appear>
+          <Text>2. graue Linie unter Titeln => 18x im Code</Text>
+        </Appear>
+      </CenteredContentSlide>
       <CenteredContentSlide>
         <Text>Wo gibt es ähnliche Herausforderungen oder Lösungen in der Welt? 🤔</Text>
       </CenteredContentSlide>
@@ -62,10 +128,13 @@ function App() {
         <Heading>Periodensystem</Heading>
         <img src={periodicTableImage} alt="periodic-table" width="65%" />
       </Slide>
-      <CenteredContentSlide>
+      <CenteredContentSlide title="Chemische Formeln">
         <Text>
           Sauerstoff (O) + Wasserstoff (H) = H<sub>2</sub>O
         </Text>
+      </CenteredContentSlide>
+      <CenteredContentSlide title="Chemische Formeln">
+        <img src={chemicalFormulaImage} alt="chemical-formula" />
       </CenteredContentSlide>
       <Slide>
         <Heading>HTML 5 Periodensystem</Heading>
@@ -127,18 +196,35 @@ function App() {
         <UnorderedList>
           <ListItem>Einfache Erweiterbarkeit</ListItem>
           <ListItem>Konsistenz für Anwender</ListItem>
-          <ListItem></ListItem>
+          <ListItem>Effizientere Zusammenarbeit von Design und Entwicklung</ListItem>
           <ListItem>Isolierte Komponenten für bessere Lesbarkeit und hohe Modularität</ListItem>
           <ListItem>Schnelleres und einfacheres Prototyping</ListItem>
         </UnorderedList>
       </Slide>
+      <CenteredContentSlide>
+        <Text>Wie und wo hilft uns das Atomic Design Pattern❓</Text>
+      </CenteredContentSlide>
       <CenteredContentSlide title="Ordnerstruktur">
         <img src={folderStructureImage} alt="Folder structure" />
       </CenteredContentSlide>
       <EndSlide />
+      <Slide>
+        <Heading>Präsentation</Heading>
+        <UnorderedList>
+          <ListItem>GitHub: https://github.com/ThaliaBuecherGmbH/atomic-design-pattern-presentation</ListItem>
+          <ListItem>Live-Version: https://thaliabuechergmbh.github.io/atomic-design-pattern-presentation</ListItem>
+        </UnorderedList>
+      </Slide>
       <SourcesSlide>
         <UnorderedList>
           <ListItem>https://atomicdesign.bradfrost.com/</ListItem>
+          <ListItem>
+            https://medium.com/@janelle.wg/atomic-design-pattern-how-to-structure-your-react-application-2bb4d9ca5f97/
+          </ListItem>
+          <ListItem>https://andela.com/insights/structuring-your-react-application-atomic-design-principles/</ListItem>
+          <ListItem>https://t3n.de/news/atomic-design-baukastensystem-721010/</ListItem>
+          <ListItem>https://www.frontend-gmbh.de/blog/atomic-design-mit-pattern-lab/</ListItem>
+          <ListItem>https://patternlab.io/</ListItem>
         </UnorderedList>
       </SourcesSlide>
     </Deck>

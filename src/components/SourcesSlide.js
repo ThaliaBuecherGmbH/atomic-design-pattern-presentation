@@ -5,7 +5,7 @@ import Slide from './Slide';
 function SourcesSlide({ children }) {
   return (
     <Slide>
-      <Heading>Sources</Heading>
+      <Heading>Quellen</Heading>
       {children}
     </Slide>
   );

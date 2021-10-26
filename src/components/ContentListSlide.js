@@ -5,7 +5,7 @@ import Slide from './Slide';
 function SourcesSlide({ contentList = [] }) {
   return (
     <Slide>
-      <Heading>Content</Heading>
+      <Heading>Inhalt</Heading>
       <OrderedList>
         {contentList.map((entry) => (
           <ListItem key={entry}>{entry}</ListItem>
