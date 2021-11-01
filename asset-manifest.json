@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/atomic-design-pattern-presentation/static/css/main.93698c11.chunk.css",
-    "main.js": "/atomic-design-pattern-presentation/static/js/main.bc980dcb.chunk.js",
-    "main.js.map": "/atomic-design-pattern-presentation/static/js/main.bc980dcb.chunk.js.map",
+    "main.js": "/atomic-design-pattern-presentation/static/js/main.031d0159.chunk.js",
+    "main.js.map": "/atomic-design-pattern-presentation/static/js/main.031d0159.chunk.js.map",
     "runtime-main.js": "/atomic-design-pattern-presentation/static/js/runtime-main.f54e85bc.js",
     "runtime-main.js.map": "/atomic-design-pattern-presentation/static/js/runtime-main.f54e85bc.js.map",
     "static/js/2.8d96c601.chunk.js": "/atomic-design-pattern-presentation/static/js/2.8d96c601.chunk.js",
@@ -14,7 +14,9 @@
     "static/media/atomic_design_pattern_animated.ed8fc4ea.gif": "/atomic-design-pattern-presentation/static/media/atomic_design_pattern_animated.ed8fc4ea.gif",
     "static/media/atoms_components.9c5682f8.png": "/atomic-design-pattern-presentation/static/media/atoms_components.9c5682f8.png",
     "static/media/chemical_formula.1bbb96b7.png": "/atomic-design-pattern-presentation/static/media/chemical_formula.1bbb96b7.png",
-    "static/media/folder_structure.0ba9c4c0.png": "/atomic-design-pattern-presentation/static/media/folder_structure.0ba9c4c0.png",
+    "static/media/component_structuring.f64174e5.png": "/atomic-design-pattern-presentation/static/media/component_structuring.f64174e5.png",
+    "static/media/folder_structure.86f45a01.png": "/atomic-design-pattern-presentation/static/media/folder_structure.86f45a01.png",
+    "static/media/folder_structure_old.0084bedb.png": "/atomic-design-pattern-presentation/static/media/folder_structure_old.0084bedb.png",
     "static/media/logo.f0d524ec.png": "/atomic-design-pattern-presentation/static/media/logo.f0d524ec.png",
     "static/media/molecules_components.ed3b3e59.png": "/atomic-design-pattern-presentation/static/media/molecules_components.ed3b3e59.png",
     "static/media/organisms.77b179b5.png": "/atomic-design-pattern-presentation/static/media/organisms.77b179b5.png",
@@ -22,6 +24,7 @@
     "static/media/pages_components.ad9d2468.png": "/atomic-design-pattern-presentation/static/media/pages_components.ad9d2468.png",
     "static/media/periodic_table.d0f09e63.png": "/atomic-design-pattern-presentation/static/media/periodic_table.d0f09e63.png",
     "static/media/periodic_table_html.33d3e401.png": "/atomic-design-pattern-presentation/static/media/periodic_table_html.33d3e401.png",
+    "static/media/reusable.8b8f4624.png": "/atomic-design-pattern-presentation/static/media/reusable.8b8f4624.png",
     "static/media/select.1b2a3e9f.png": "/atomic-design-pattern-presentation/static/media/select.1b2a3e9f.png",
     "static/media/templates_components.19dff06f.png": "/atomic-design-pattern-presentation/static/media/templates_components.19dff06f.png"
   },
@@ -29,6 +32,6 @@
     "static/js/runtime-main.f54e85bc.js",
     "static/js/2.8d96c601.chunk.js",
     "static/css/main.93698c11.chunk.css",
-    "static/js/main.bc980dcb.chunk.js"
+    "static/js/main.031d0159.chunk.js"
   ]
 }
