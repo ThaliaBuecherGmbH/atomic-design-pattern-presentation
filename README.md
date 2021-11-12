@@ -1,7 +1,7 @@
 <p align="center">
     <img src="https://thaliabuechergmbh.github.io/atomic-design-pattern-presentation/logo.png" width="200" alt="Logo"/>
 </p>
-<h2 align="center">Atomic Design Patterns</h2>
+<h2 align="center">Atomic Design Pattern</h2>
 
 Presentation about the Atomic Design pattern built with [spectacle](https://formidable.com/open-source/spectacle/).
 For further information about controlling the presentation see documentation of Spectacle [here](https://formidable.com/open-source/spectacle/docs/basic-concepts/).
