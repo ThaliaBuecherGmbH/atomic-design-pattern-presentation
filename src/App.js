@@ -49,7 +49,9 @@ function App() {
         <Heading>Atomic Design Pattern</Heading>
         <img src={logoImage} alt="Logo" className="Logo" width="auto" />
       </TitleSlide>
-      <ContentListSlide contentList={['Allgemein', 'Beispiele', 'Pattern', 'Vorteile', 'Wo hilft es uns?']} />
+      <ContentListSlide
+        contentList={['Allgemein', 'Beispiele', 'Pattern', 'Wo hilft es uns?', 'Vorteile', 'Nachteile']}
+      />
       <CenteredContentSlide title={'Allgemein'}>
         <UnorderedList>
           <ListItem>Entwickelt von Web Designer Brad Frost ca. 2013</ListItem>
@@ -234,9 +236,9 @@ function App() {
           <img src={componentParts2Image} alt="Component parts" />
         </Appear>
       </CenteredContentSlide>
-        <CenteredContentSlide title="Komponentendefinition">
-            <img src={legoImage} alt="Lego" width="60%" />
-        </CenteredContentSlide>
+      <CenteredContentSlide title="Komponentendefinition">
+        <img src={legoImage} alt="Lego" width="60%" />
+      </CenteredContentSlide>
       <CenteredContentSlide title="Austausch Design und Entwicklung">
         <img src={componentStructuring} alt="Component structuring" width="80%" />
       </CenteredContentSlide>
