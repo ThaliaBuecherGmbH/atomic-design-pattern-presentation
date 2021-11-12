@@ -37,6 +37,10 @@ import componentPartsImage from './images/component_parts.png';
 import componentParts2Image from './images/component_parts2.png';
 import componentStructuring from './images/component_structuring.png';
 import reusableImage from './images/reusable.png';
+import modal1Image from './images/modal1.png';
+import modal2Image from './images/modal2.png';
+import modal3Image from './images/modal3.png';
+import legoImage from './images/lego.png';
 
 function App() {
   return (
@@ -46,21 +50,17 @@ function App() {
         <img src={logoImage} alt="Logo" className="Logo" width="auto" />
       </TitleSlide>
       <ContentListSlide contentList={['Allgemein', 'Beispiele', 'Pattern', 'Vorteile', 'Wo hilft es uns?']} />
-      <Slide>
-        <Heading>Allgemein</Heading>
-        <Text>Entwickelt von Brad Frost ca. 2013</Text>
+      <CenteredContentSlide title={'Allgemein'}>
         <UnorderedList>
-          <ListItem>Entwickelt von Brad Frost ca. 2013</ListItem>
+          <ListItem>Entwickelt von Web Designer Brad Frost ca. 2013</ListItem>
           <ListItem>
-            <a href="https://atomicdesign.bradfrost.com/">Atomic design</a>
+            <a href="https://atomicdesign.bradfrost.com/">Atomic design E-Book</a>
           </ListItem>
           <ListItem>
             <a href="https://vimeo.com/67476280">Vimeo</a>
           </ListItem>
         </UnorderedList>
-        <Text></Text>
-        <Text></Text>
-      </Slide>
+      </CenteredContentSlide>
       <Slide>
         <Heading>Herausforderungen</Heading>
         <UnorderedList>
@@ -132,6 +132,13 @@ function App() {
         <Appear>
           <Text>2. graue Linie unter Titeln => 18x im Code</Text>
         </Appear>
+      </CenteredContentSlide>
+      <CenteredContentSlide title="Beispiele zum Konsistenz">
+        <FlexBox justifyContent={'space-between'} width="60%">
+          <img src={modal1Image} alt="Modal 1" width="30%" />
+          <img src={modal2Image} alt="Modal 2" width="30%" />
+          <img src={modal3Image} alt="Modal 3" width="30%" />
+        </FlexBox>
       </CenteredContentSlide>
       <CenteredContentSlide>
         <Text>Wo gibt es ähnliche Herausforderungen oder Lösungen in der Welt? 🤔</Text>
@@ -227,11 +234,14 @@ function App() {
           <img src={componentParts2Image} alt="Component parts" />
         </Appear>
       </CenteredContentSlide>
+        <CenteredContentSlide title="Komponentendefinition">
+            <img src={legoImage} alt="Lego" width="60%" />
+        </CenteredContentSlide>
       <CenteredContentSlide title="Austausch Design und Entwicklung">
         <img src={componentStructuring} alt="Component structuring" width="80%" />
       </CenteredContentSlide>
       <CenteredContentSlide title="Wiederverwendbarkeit">
-        <img src={reusableImage} alt="Reusability" width="60%"/>
+        <img src={reusableImage} alt="Reusability" width="60%" />
       </CenteredContentSlide>
       <CenteredContentSlide title="Komponenten Bibliothek">
         <Text>
